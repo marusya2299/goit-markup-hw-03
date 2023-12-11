@@ -16,13 +16,14 @@
 <body>
     <!-- Шапка веб-сторінки -->
     <header>
+        <div class="container flex-container-one">
 
         <!-- Навігація -->
         <nav class="navi">
             <!-- Лого-->
             <a class="navi-logo" href="./index.html">Web<span class="accent">Studio</span></a>
 
-            <ul class="list">
+            <ul class="list flex-container-one">
                 <li><a class="navi-link" href="./index.html">Studio</a></li>
                 <li><a class="navi-link" href="">Portfolio</a></li>
                 <li><a class="navi-link" href="">Contacts</a></li>
@@ -30,26 +31,30 @@
         </nav>
 
         <address class="address">
-            <ul class="list">
+            <ul class="list flex-container-one">
                 <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        </div>
     </header>
 
     <!-- Основний  вміст -->
     <main>
         <!-- Секція 1 -->
         <section class="section-one">
+            <div class="container" >
             <h1 class="page-title">Effective Solutions for Your Business</h1>
 
             <button class="button" type="button">Order Service</button>
+            </div>
         </section>
 
         <!-- Секція 2 -->
         <section class="section-two">
+            <div class="container">
             <h2 class="section-title" hidden >Our advantages</h2>
-                <ul class="list">
+                <ul class="list flex-container-two">
                     <li>
                         <h3 class="title">Strategy</h3>
                         <p class="text">
@@ -83,12 +88,14 @@
                         </p>
                     </li>
                 </ul>
+                </div>
             </section>
             
             <!-- Секція 3 -->
             <section class="section-three">
+                <div class="container">
                 <h2 class="section-title">Our Team</h2>
-                <ul class="list">
+                <ul class="list flex-container-two">
                     <li class="section-card">
                         <img src="./images/mark_guerrero.jpg" alt="Team member" width=264 height=260>
                         <h3 class="title">Mark Guerrero</h3>
@@ -111,12 +118,14 @@
                     </li>
 
                 </ul>
+                </div>
             </section>
 
             <!-- Секція 4 -->
             <section class="section-four">
+                <div class="container">
                 <h2 class="section-title">Our Portfolio</h2>
-                <ul class="list">
+                <ul class="list flex-container-three">
                     <li class="section-card">
                         <img src="./images/bank.jpg" alt="Screen App" width=360 height=300>
                         <h3 class="title">Banking App</h3>
@@ -149,12 +158,14 @@
                     </li>
                 
                 </ul>
+                </div>
 
             </section>
     </main>
 
     <!-- Фінальна частина -->
     <footer class="final-section">
+        <div class="container">
         <!-- Лого-->
         <a class="final-logo" href="./index.html">Web<span class="accent">Studio</span></a>
         <p class="text">
@@ -162,6 +173,7 @@
             sales for your business with digital
             marketing &#38; growth solutions.
         </p>
+        </div>
 </footer>
 
 </body>
