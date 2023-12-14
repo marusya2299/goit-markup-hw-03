@@ -167,7 +167,6 @@ margin-right: 76px;
 
 .section-three{
     background-color: #F4F4FD;
-    text-align: center;
 }
 
 
@@ -235,4 +234,14 @@ margin-right: 76px;
 
 .section-three .flex-card{
     border-radius: 0px 0px 4px 4px;
+}
+
+.name-text{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section-three .text,
+.section-three .title{
+    text-align: center;
 }
