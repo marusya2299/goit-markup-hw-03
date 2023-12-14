@@ -24,8 +24,9 @@ img{
 
 .container {
     max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,6 +55,8 @@ margin-right: 76px;
     font-weight: 500;
     text-decoration: none;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
  }
  
 .address{
@@ -80,7 +83,8 @@ margin-right: 76px;
  .section-one{
     color: #FFFFFF;
     background-color: #2E2F42;
-    padding: 188px 316px;
+    padding-top: 188px;
+    padding-bottom: 188px;
  }
 
  .button{
@@ -90,7 +94,7 @@ margin-right: 76px;
     letter-spacing: 0.04em;
     line-height: 1.5;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border-radius: 4px;
     border: none;
@@ -113,6 +117,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-align: center;
     padding-bottom: 48px;
+    max-width: 496px;
 }
 
 /*h2*/
@@ -212,4 +217,17 @@ margin-right: 76px;
 
 .navi{
     display: flex;
+    align-items: center;
+}
+
+.head{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.section-two .flex-card{
+    width: calc((100% - 72px) / 4);
 }
