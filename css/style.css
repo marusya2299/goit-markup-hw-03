@@ -23,7 +23,6 @@ img{
 }
 
 .container {
-    max-width: 1440px;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -118,6 +117,8 @@ margin-right: 76px;
     text-align: center;
     padding-bottom: 48px;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*h2*/
@@ -129,7 +130,7 @@ margin-right: 76px;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 /*h3*/
@@ -141,7 +142,7 @@ margin-right: 76px;
     text-transform: capitalize;
     color: #2E2F42;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .text{
@@ -225,9 +226,13 @@ margin-right: 76px;
 }
 
 .visually-hidden{
-    display: none;
+    visibility: hidden;
 }
 
 .section-two .flex-card{
     width: calc((100% - 72px) / 4);
+}
+
+.section-three .flex-card{
+    border-radius: 0px 0px 4px 4px;
 }
