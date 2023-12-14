@@ -190,8 +190,8 @@ margin-right: 76px;
 }
 
 .final-logo{
-    display: block;
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .flex-container-one{
@@ -226,7 +226,7 @@ margin-right: 76px;
 }
 
 .visually-hidden{
-    visibility: hidden;
+    display: none;
 }
 
 .section-two .flex-card{
