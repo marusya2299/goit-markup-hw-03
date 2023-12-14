@@ -212,7 +212,8 @@ margin-right: 76px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .navi{
