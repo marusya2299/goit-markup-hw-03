@@ -54,13 +54,14 @@ margin-right: 76px;
     font-weight: 500;
     text-decoration: none;
     color: #2e2f42;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
  }
  
 .address{
     font-style: normal;
-    margin-left: 332px;
+    margin-left: auto;
 }
 
 .address-link {
@@ -115,7 +116,7 @@ margin-right: 76px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -141,7 +142,6 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -155,7 +155,6 @@ margin-right: 76px;
 
 .section-card {
     background-color: #FFFFFF;
-    margin-bottom: 32px;
 }
 
 .section-two,
@@ -167,6 +166,10 @@ margin-right: 76px;
 
 .section-three{
     background-color: #F4F4FD;
+}
+
+.section-four{
+    width: calc((100%-48px)/3);
 }
 
 
@@ -198,6 +201,7 @@ margin-right: 76px;
     display: flex;
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 }
 
 .flex-container-two{
@@ -255,7 +259,6 @@ margin-right: 76px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .section-three .text,
 .section-three .title{
