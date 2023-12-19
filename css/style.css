@@ -125,7 +125,7 @@ margin-right: 76px;
 /*h2*/
 .section-title{
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
@@ -167,11 +167,6 @@ margin-right: 76px;
 .section-three{
     background-color: #F4F4FD;
 }
-
-.section-four{
-    width: calc((100%-48px)/3);
-}
-
 
 /*final*/
 .final-section{
@@ -248,6 +243,10 @@ margin-right: 76px;
 
 .section-three .flex-card{
     border-radius: 0px 0px 4px 4px;
+}
+
+.section-four .flex-card{
+    width: calc((100% - 48px) / 3);
 }
 
 .name-text{
